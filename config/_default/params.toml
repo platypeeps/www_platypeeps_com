@@ -5,12 +5,12 @@ favicon_32x32 = "images/favicon.png"
 favicon_16x16 = "images/favicon.png"
 apple_touch_icon = "images/favicon.png"
 # logo
-logo_text = "Copper"
+logo_text = "Platypeeps"
 logo = "images/logo.png"
 logo_width = ""
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
+author = "Platypeeps"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -22,7 +22,7 @@ custom_script= ""
 enable = true
 preloader = "images/preloader.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
-greetings_to = "Copper"
+greetings_to = "Platypeeps"
 
 # navigation button
 [navigation_button_bordered]
@@ -37,7 +37,7 @@ link = ""
 # Footer call to action
 [footer_call_to_action]
 enable = true
-title = "Join 75,000+ growing business That **Use Copper To Their Brand**"
+title = "Get in touch with us to find out more"
 [footer_cta_button]
 enable = true
 label = "Get Started With Us"
