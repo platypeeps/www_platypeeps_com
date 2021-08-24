@@ -19,7 +19,7 @@ custom_script= ""
 
 # Preloader
 [preloader]
-enable = true
+enable = false
 preloader = "images/preloader.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
 greetings_to = "Platypeeps"
