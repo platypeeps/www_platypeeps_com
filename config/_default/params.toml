@@ -52,7 +52,7 @@ mailchimp_form_name = "b_3cd252f316e8437421c664514_27daecf094" # replace this co
 
 # cookies
 [cookies]
-enable = false
+enable = true
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
