@@ -2,8 +2,8 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  title : "Give Your customers human feeling touch **Like Never Before**"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor invidunt ut labore et dolore magna"
+  title : "This is a test site to experiment!!! No actual product here!"
+  content : "Personal experimentation and evaluation of technologies..."
   image : "images/screenshots/banner-shot.png"
   video:
     enable : true
@@ -17,26 +17,14 @@ banner:
     icon : "images/brands/google.png"
     label : "Sign Up With Google"
     link : "#"
-    content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
+    content : "No credit card required."
 
 
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
-  enable : true
+  enable : false
   logos:
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
   
 
 ########################## How it works #########################
@@ -106,7 +94,7 @@ tools:
 
 ############################## Achivement ##############################
 achivement:
-  enable : true
+  enable : false
   title : "Average yearly growth rate **across our clients We able to achive**"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
   funfacts:
@@ -138,7 +126,7 @@ achivement:
 
 ############################## Workflow ################################
 workflow:
-  enable : true
+  enable : false
   title : "Create an automated **workflow by setting**"
   image : "images/screenshots/03.png"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
@@ -146,7 +134,7 @@ workflow:
 
 ############################## about us ################################
 about_us:
-  enable : true
+  enable : false
   title : "Who Are We And **What Is Our Identity?**"
   image : "images/about/01.jpg"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores"
@@ -159,7 +147,7 @@ about_us:
 
 ############################# Testimonial ############################
 testimonial:
-  enable : true
+  enable : false
   title : "What Our **Client says**"
   content : "Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore et dolore magna aliquyam erat, sed diam"
   button:

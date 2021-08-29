@@ -1,5 +1,11 @@
-- id: quick_links
-  translation: Quick Links
+- id: product_links
+  translation: Product
+  
+- id: support_links
+  translation: Support
+  
+- id: company_links
+  translation: Company
   
 - id: social_links
   translation: Social Links
@@ -39,6 +45,9 @@
   
 - id: year
   translation: Year
+  
+- id: user
+  translation: User
   
 - id: view_job
   translation: View Listing

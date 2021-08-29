@@ -54,9 +54,9 @@
                 </span>
                 {{ end }}
                 {{if .monthly_price}}<span
-                  class="text-monthly {{if eq $toggle `yearly`}}d-none{{end}}">\{{ i18n "month"}}</span>{{end}}
+                  class="text-monthly {{if eq $toggle `yearly`}}d-none{{end}}">\{{ i18n "month"}}\{{ i18n "user"}}</span>{{end}}
                 {{if .yearly_price}}<span
-                  class="text-annually {{if ne $toggle `yearly`}}d-none{{end}}">\{{ i18n "year"}}</span>{{end}}
+                  class="text-annually {{if ne $toggle `yearly`}}d-none{{end}}">\{{ i18n "month"}}\{{ i18n "user"}}</span>{{end}}
                 <div class="mt-10">
                   {{with .monthly_content}}<p class="text-monthly {{if eq $toggle `yearly`}}d-none{{end}}">
                     {{. | markdownify}}</p>{{end}}

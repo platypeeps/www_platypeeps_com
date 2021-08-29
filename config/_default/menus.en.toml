@@ -6,82 +6,73 @@ url = ""
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "How It Works"
+url = "how-it-works/"
 weight = 2
 
 [[main]]
-name = "Services"
-url = "services/"
+name = "Pricing"
+url = "pricing-2/"
 weight = 3
 
-[[main]]
+# Footer menus
+[[footerproduct]]
+name = "How It Works"
+url = "how-it-works/"
+weight = 1
+  
+[[footerproduct]]
+name = "Pricing"
+url = "pricing-2/"
+weight = 2
+
+[[footerproduct]]
+name = "Roadmap"
+url = "https://trello.com/b/WIyV4Y36/platypeeps-public-roadmap"
+weight = 3
+
+[[footersupport]]
+name = "Docs"
+url = "https://doc.platypeeps.com/"
+weight = 1
+
+[[footersupport]]
+name = "Faq"
+url = "faq/"
+weight = 2
+
+[[footersupport]]
+name = "Status"
+url = "https://rootly.io/teams/platypeeps/status-pages/platypeeps-8cbc6ebb-db1e-4fbf-a98e-cc16a0c5a3aa/public"
+weight = 3
+
+[[footersupport]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+[[footercompany]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footercompany]]
+name = "Blog"
+url = "blog/"
+weight = 2
+
+[[footercompany]]
 name = "Team"
 url = "team/"
 weight = 4
 
-[[main]]
-name = "Blog"
-url = "blog/"
-weight = 5
-
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 6
-
-[[main]]
-name = "Pages"
-weight = 7
-hasChildren = true
-
-  [[main]]
-  parent = "Pages"
-  name = "Career"
-  url = "career/"
-
-  [[main]]
-  parent = "Pages"
-  name = "Pricing"
-  url = "pricing/"
-
-  [[main]]
-  parent = "Pages"
-  name = "Pricing 2"
-  url = "pricing-2/"
-  
-  [[main]]
-  parent = "Pages"
-  name = "How It Works"
-  url = "how-it-works/"
-  
-  [[main]]
-  parent = "Pages"
-  name = "Testimonial"
-  url = "testimonial/"
-  
-  [[main]]
-  parent = "Pages"
-  name = "Faq"
-  url = "faq/"
-  
-  [[main]]
-  parent = "Pages"
-  name = "Changelog"
-  url = "changelog/"
-
-# Footer menu
-[[footer]]
-name = "Faq"
-url = "faq/"
-weight = 1
-
-[[footer]]
+[[footercompany]]
 name = "Terms & Conditions"
 url = "terms-conditions/"
-weight = 2
+weight = 5
 
-[[footer]]
+[[footercompany]]
 name = "Privacy Policy"
 url = "privacy-policy/"
-weight = 3
+weight = 6
+

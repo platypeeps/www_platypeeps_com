@@ -1,13 +1,13 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
-favicon_32x32 = "images/favicon.png"
-favicon_16x16 = "images/favicon.png"
-apple_touch_icon = "images/favicon.png"
+favicon = "images/favicon.ico"
+favicon_32x32 = "images/favicon-32x32.png"
+favicon_16x16 = "images/favicon-16x16.png"
+apple_touch_icon = "images/favicon-apple.png"
 # logo
 logo_text = "Platypeeps"
 logo = "images/logo.png"
-logo_width = ""
+logo_width = "200px"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
 author = "Platypeeps"
@@ -61,14 +61,24 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
+link = "https://www.facebook.com/platypeeps/"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-instagram" # fontawesome icon : https://fontawesome.com/icons
+link = "https://twitter.com/platypeepshq"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-twitter" # fontawesome icon : https://fontawesome.com/icons
+link = "https://www.instagram.com/platypeeps/"
 
 [[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/platypeeps"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.linkedin.com/company/platypeeps"

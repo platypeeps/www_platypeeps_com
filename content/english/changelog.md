@@ -1,60 +1,27 @@
 ---
 title : "Changelog"
-description : "this is meta description"
+description : "Platypeeps change log"
 layout : "changelog"
 draft : false
 sidelist:
-- "v1.0.4 (January 19,2020)"
-- "v1.0.2 (January 10,2020)"
-- "v1.0.0 (January 01,2019)"
+- "v1.0.0 (August 01,2021)"
 ---
 
-#### v1.0.4 (January 19,2020)
+#### v1.0.0 (August 001,2021)
+
+{{< changelog "added" >}}
+* Initial draft version of the web [Site] established and published.
+* Hookup of external services.
+{{</ changelog >}}
 
 {{< changelog "changed" >}}
-* Process transactions.
-* Send emails about our [Site](#)
-* Send emails and updates about Conclude
-* Perform any other function that we believe
+* Content and layout for a number of preexisting pages.
 {{</ changelog >}}
-
-{{< changelog "added" >}}
-* Process transactions.
-* Send emails about our [Site](#)
-* Send emails and updates about Conclude
-* Perform any other function that we believe
-{{</ changelog >}}
-
-
-#### v1.0.2 (January 10,2020)
 
 {{< changelog "removed" >}}
-* Process transactions.
-* Send emails about our [Site](#)
-* Send emails and updates about Conclude
-* Perform any other function that we believe
+* Unneeded content from the site template.
 {{</ changelog >}}
 
 {{< changelog "security" >}}
-* Process transactions.
-* Send emails about our [Site](#)
-* Send emails and updates about Conclude
-* Perform any other function that we believe
-{{</ changelog >}}
-
-
-#### v1.0.0 (January 01,2019)
-
-{{< changelog "added" >}}
-* Process transactions.
-* Send emails about our [Site](#)
-* Send emails and updates about Conclude
-* Perform any other function that we believe
-{{</ changelog >}}
-
-{{< changelog "security" >}}
-* Process transactions.
-* Send emails about our [Site](#)
-* Send emails and updates about Conclude
-* Perform any other function that we believe
+* Code scanning established on github repos.
 {{</ changelog >}}

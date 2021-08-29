@@ -1,6 +1,6 @@
 ---
 title : "Pricing"
-description : "this is meta description"
+description : "Platypeeps Pricing"
 layout : "pricing-2"
 # you can set only monthly, only yearly, or toggle both
 monthly_yearly_toggle: "toggle" # available value "monthly"/"yearly"/"toggle"
@@ -12,8 +12,8 @@ pricing_table_info:
   currency: ""
   monthly_price: ""
   yearly_price: ""
-  monthly_content: "Save 30% On Annual Subscription"
-  yearly_content: "Save 50% On Annual Subscription"
+  monthly_content: "Save On Annual Subscription"
+  yearly_content: "Save On Annual Subscription"
   recomended: false
   button_label : ""
   button_link : ""
@@ -22,38 +22,38 @@ pricing_table_info:
   currency: "$"
   monthly_price: "0"
   yearly_price: "0"
-  monthly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
-  yearly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
+  monthly_content: "Free 45 day trial. Give it a spin and let us know how it goes."
+  yearly_content: "Free 45 day trial. Give it a spin and let us know how it goes."
   recomended: false
   button_label : "Free Trial"
   button_link : "#"
 
-- name: "Team"
+- name: "Small Team"
   currency: "$"
-  monthly_price: "39"
-  yearly_price: "139"
-  monthly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
-  yearly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
+  monthly_price: "7"
+  yearly_price: "5"
+  monthly_content: "Small teams with small team needs as y ou grow and explore."
+  yearly_content: "Small teams with small team needs as you grow and explore."
   recomended: false
   button_label : "Start Now"
   button_link : "contact"
 
-- name: "Business"
+- name: "Medium Team"
   currency: "$"
-  monthly_price: "59"
-  yearly_price: "159"
-  monthly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
-  yearly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
+  monthly_price: "17"
+  yearly_price: "12"
+  monthly_content: "Medium sized team capabilities, do more with your team."
+  yearly_content: "Medium sized team capabilities, do more with your team."
   recomended: true
   button_label : "Start Now"
   button_link : "contact"
 
-- name: "Enterprise"
+- name: "Large Teram"
   currency: "$"
-  monthly_price: "89"
-  yearly_price: "189"
-  monthly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
-  yearly_content: "Lorem ipsum dolor sit amet confsectur justo massa."
+  monthly_price: "14"
+  yearly_price: "10"
+  monthly_content: "Everything a large team needs to be successfull at scale."
+  yearly_content: "Everything a large team needs to be successfull at scale."
   recomended: false
   button_label : "Start Now"
   button_link : "contact"
@@ -62,15 +62,99 @@ pricing_table_info:
 
 # Pricing body/info
 pricing_table_data:
-# table column
+# table row
 - table_row:
   - name: "" # empty
     monthly_icon: "fas fa-info-circle text-primary"
     yearly_icon: "fas fa-info-circle text-primary"
     monthly_count: ""
     yearly_count: ""
-    monthly_content: "Pages"
-    yearly_content: "Pages"
+    monthly_content: "Users"
+    yearly_content: "Users"
+    
+  - name: "Free"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "unlimited"
+    yearly_content: "unlimited"
+    
+  - name: "Small Team"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: "5"
+    yearly_count: "5"
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Medium Team"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: "25"
+    yearly_count: "25"
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Large Team"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "unlimited"
+    yearly_content: "unlimited"
+    
+# table row
+- table_row:
+  - name: "" # empty
+    monthly_icon: "fas fa-info-circle text-primary"
+    yearly_icon: "fas fa-info-circle text-primary"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "Free Guest Accounts"
+    yearly_content: "Free Guest Accounts"
+    
+  - name: "Free"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "unlimited"
+    yearly_content: "unlimited"
+    
+  - name: "Small Team"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: "0"
+    yearly_count: "0"
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Medium Team"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: "10"
+    yearly_count: "10"
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Large Team"
+    monthly_icon: ""
+    yearly_icon: ""
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "unlimited"
+    yearly_content: "unlimited"
+    
+# table row
+- table_row:
+  - name: "" # empty
+    monthly_icon: "fas fa-info-circle text-primary"
+    yearly_icon: "fas fa-info-circle text-primary"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "Data Export"
+    yearly_content: "Data Export"
     
   - name: "Free"
     monthly_icon: "fas fa-check"
@@ -80,125 +164,7 @@ pricing_table_data:
     monthly_content: ""
     yearly_content: ""
     
-  - name: "Team"
-    monthly_icon: "fas fa-check"
-    yearly_icon: "fas fa-check"
-    monthly_count: ""
-    yearly_count: ""
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Business"
-    monthly_icon: "fas fa-check"
-    yearly_icon: "fas fa-check"
-    monthly_count: ""
-    yearly_count: ""
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Enterprise"
-    monthly_icon: "fas fa-check"
-    yearly_icon: "fas fa-check"
-    monthly_count: ""
-    yearly_count: ""
-    monthly_content: ""
-    yearly_content: ""
-    
-# table column
-- table_row:
-  - name: "" # empty
-    monthly_icon: "fas fa-info-circle text-primary"
-    yearly_icon: "fas fa-info-circle text-primary"
-    monthly_count: ""
-    yearly_count: ""
-    monthly_content: "Monthly visits"
-    yearly_content: "Yearly visits"
-    
-  - name: "Free"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "10000"
-    yearly_count: "30000"
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Team"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "30000"
-    yearly_count: "60000"
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Business"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "50000"
-    yearly_count: "80000"
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Enterprise"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "100000"
-    yearly_count: "130000"
-    monthly_content: ""
-    yearly_content: ""
-    
-# table column
-- table_row:
-  - name: "" # empty
-    monthly_icon: "fas fa-info-circle text-primary"
-    yearly_icon: "fas fa-info-circle text-primary"
-    monthly_count: ""
-    yearly_count: ""
-    monthly_content: "Collection items"
-    yearly_content: "Collection items"
-    
-  - name: "Free"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "30000"
-    yearly_count: "50000"
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Team"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "50000"
-    yearly_count: "80000"
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Business"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "80000"
-    yearly_count: "100000"
-    monthly_content: ""
-    yearly_content: ""
-    
-  - name: "Enterprise"
-    monthly_icon: ""
-    yearly_icon: ""
-    monthly_count: "100000"
-    yearly_count: "150000"
-    monthly_content: ""
-    yearly_content: ""
-
-# table column
-- table_row:
-  - name: "" # empty
-    monthly_icon: "fas fa-info-circle text-primary"
-    yearly_icon: "fas fa-info-circle text-primary"
-    monthly_count: ""
-    yearly_count: ""
-    monthly_content: "Form submissions"
-    yearly_content: "Form submissions"
-    
-  - name: "Free"
+  - name: "Small Team"
     monthly_icon: "fas fa-times"
     yearly_icon: "fas fa-times"
     monthly_count: ""
@@ -206,7 +172,7 @@ pricing_table_data:
     monthly_content: ""
     yearly_content: ""
     
-  - name: "Team"
+  - name: "Medium Team"
     monthly_icon: "fas fa-check"
     yearly_icon: "fas fa-check"
     monthly_count: ""
@@ -214,7 +180,25 @@ pricing_table_data:
     monthly_content: ""
     yearly_content: ""
     
-  - name: "Business"
+  - name: "Large Team"
+    monthly_icon: "fas fa-check"
+    yearly_icon: "fas fa-check"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+
+# table row
+- table_row:
+  - name: "" # empty
+    monthly_icon: "fas fa-info-circle text-primary"
+    yearly_icon: "fas fa-info-circle text-primary"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "Data Lake Integration"
+    yearly_content: "Data Lake Integration"
+    
+  - name: "Free"
     monthly_icon: "fas fa-check"
     yearly_icon: "fas fa-check"
     monthly_count: ""
@@ -222,7 +206,65 @@ pricing_table_data:
     monthly_content: ""
     yearly_content: ""
     
-  - name: "Enterprise"
+  - name: "Small Team"
+    monthly_icon: "fas fa-times"
+    yearly_icon: "fas fa-times"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Medium Team"
+    monthly_icon: "fas fa-times"
+    yearly_icon: "fas fa-times"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Large Team"
+    monthly_icon: "fas fa-check"
+    yearly_icon: "fas fa-check"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+
+# table row
+- table_row:
+  - name: "" # empty
+    monthly_icon: "fas fa-info-circle text-primary"
+    yearly_icon: "fas fa-info-circle text-primary"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: "SAML"
+    yearly_content: "SAML"
+    
+  - name: "Free"
+    monthly_icon: "fas fa-check"
+    yearly_icon: "fas fa-check"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Small Team"
+    monthly_icon: "fas fa-times"
+    yearly_icon: "fas fa-times"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Medium Team"
+    monthly_icon: "fas fa-check"
+    yearly_icon: "fas fa-check"
+    monthly_count: ""
+    yearly_count: ""
+    monthly_content: ""
+    yearly_content: ""
+    
+  - name: "Large Team"
     monthly_icon: "fas fa-check"
     yearly_icon: "fas fa-check"
     monthly_count: ""
@@ -233,4 +275,4 @@ pricing_table_data:
 ---
 
 ## Choose **Pricing**
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
+Pick the plan that is right for you or contact us for a conversation.
