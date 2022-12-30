@@ -7,7 +7,7 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # google analytics
-googleAnalytics = "UA-159413070-1" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "G-49D41B3FYR" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
 disqusShortname = "platypeeps-com" # get your shortname form here : https://disqus.com
 # disable language
