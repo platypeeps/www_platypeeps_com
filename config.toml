@@ -1,5 +1,4 @@
 ######################## default configuration ####################
-baseURL = "https://platypeeps.com"
 title = "Platypeeps"
 theme = "copper-hugo"
 # post pagination
