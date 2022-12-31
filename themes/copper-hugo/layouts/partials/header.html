@@ -1,13 +1,8 @@
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDCVFWQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
-      <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
+      <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}/">
         {{ if site.Params.logo }}
         <img class="img-fluid" width="{{site.Params.logo_width}}" src="{{ site.Params.logo | relURL}}"
           alt="{{ site.Title }}">

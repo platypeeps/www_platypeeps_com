@@ -1,0 +1,7 @@
+buildDrafts = true
+minify = false
+
+# google analytics
+googleAnalytics = "G-49D41B3FYR"
+# disqus short name
+disqusShortname = "platypeeps-com"

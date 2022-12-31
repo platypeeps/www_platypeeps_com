@@ -20,6 +20,11 @@ name = "Docs"
 url = "https://doc.platypeeps.com/"
 weight = 4
 
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 5
+
 # Footer menus
 [[footerproduct]]
 name = "How It Works"
