@@ -1,8 +1,8 @@
 enableRobotsTXT = true
 minify = true
 
-# google analytics
-googleAnalytics = "G-49D41B3FYR"
 # disqus short name
 disqusShortname = "platypeeps-com"
 
+[params]
+  googleTagManager = "GTM-58KPFCK"
