@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "https://platypeeps.info"
 
 buildDrafts = true
 minify = false
